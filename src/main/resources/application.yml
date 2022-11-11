@@ -1,0 +1,29 @@
+## DB config goes here
+spring:
+  sql:
+    init:
+      mode: never
+      platform: postgresql
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:postgresql://abul.db.elephantsql.com:5432/tpddiieh?currentSchema=saltquoter
+    username: tpddiieh
+    password: 2e2mvkwActe91HQZTFyoATUTp28SlkeX
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true
+## Logging settings
+debug: true
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
