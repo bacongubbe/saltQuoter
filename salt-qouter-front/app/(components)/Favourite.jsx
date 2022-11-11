@@ -15,7 +15,7 @@ const Favourite = ({ id, favourite }) => {
     }
 
     return (
-        <button className='button--favourite button' onClick={handleClick}>{favourite ? '★' : '☆'}</button>
+        <button className={favourite ? 'button--favourite button' : 'button button--favourite--deactivated'} onClick={handleClick}>{favourite ? '★' : '☆'}</button>
     )
 }
 

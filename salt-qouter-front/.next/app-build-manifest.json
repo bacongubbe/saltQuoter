@@ -1,14 +1,9 @@
 {
   "pages": {
-    "/people/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/people/page.js"
-    ],
-    "/people/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/loading.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -20,41 +15,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/people/[id]/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/[id]/loading.js"
-    ],
-    "/people/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/[id]/page.js"
-    ],
-    "/people/edit/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/edit/[id]/page.js"
-    ],
-    "/people/edit/[id]/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/edit/[id]/loading.js"
-    ],
-    "/people/edit/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/edit/loading.js"
-    ],
-    "/people/[id]/quotes/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/[id]/quotes/page.js"
-    ],
-    "/people/[id]/quotes/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/people/[id]/quotes/loading.js"
-    ],
     "/favourites/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -65,10 +25,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/favourites/loading.js"
     ],
-    "/page": [
+    "/people/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/people/page.js"
+    ],
+    "/people/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/loading.js"
     ],
     "/quotes/page": [
       "static/chunks/webpack.js",
@@ -80,6 +45,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/quotes/loading.js"
     ],
+    "/people/edit/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/edit/page.js"
+    ],
+    "/people/edit/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/edit/loading.js"
+    ],
     "/quotes/edit/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -90,10 +65,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/quotes/edit/loading.js"
     ],
-    "/people/edit/page": [
+    "/people/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/people/edit/page.js"
+      "static/chunks/app/people/[id]/page.js"
+    ],
+    "/people/[id]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/[id]/loading.js"
+    ],
+    "/people/edit/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/edit/[id]/page.js"
+    ],
+    "/people/edit/[id]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/edit/[id]/loading.js"
+    ],
+    "/people/[id]/quotes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/[id]/quotes/page.js"
+    ],
+    "/people/[id]/quotes/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/people/[id]/quotes/loading.js"
     ],
     "/quotes/edit/[id]/page": [
       "static/chunks/webpack.js",

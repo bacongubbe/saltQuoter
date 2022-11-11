@@ -1,8 +1,6 @@
 {
-  "/people/page": "app/people/page.js",
-  "/page": "app/page.js",
-  "/favourites/page": "app/favourites/page.js",
   "/quotes/page": "app/quotes/page.js",
-  "/quotes/edit/page": "app/quotes/edit/page.js",
-  "/people/edit/page": "app/people/edit/page.js"
+  "/quotes/edit/[id]/page": "app/quotes/edit/[id]/page.js",
+  "/page": "app/page.js",
+  "/favourites/page": "app/favourites/page.js"
 }

@@ -33,7 +33,7 @@ const UpdateQuote = ({ id, current, person }) => {
     return (
         <>
             <form onSubmit={handleSubmit}>
-                <input type='text' placeholder={current} ref={quoteRef} />
+                <input type='text' placeholder={current} ref={quoteRef} className='edit-quote-form__input' />
                 <button className='button' type='submit'> update </button>
             </form>
             <div className={success ? 'edit-person-form__success-message' : 'edit-person-form__success-message--disabled'} > Success! </div>
