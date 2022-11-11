@@ -1,6 +1,8 @@
 {
+  "/people/[id]/page": "app/people/[id]/page.js",
+  "/favourites/page": "app/favourites/page.js",
   "/quotes/page": "app/quotes/page.js",
   "/quotes/edit/[id]/page": "app/quotes/edit/[id]/page.js",
   "/page": "app/page.js",
-  "/favourites/page": "app/favourites/page.js"
+  "/people/page": "app/people/page.js"
 }
